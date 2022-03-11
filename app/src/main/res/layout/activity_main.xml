@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SearchActivity"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="336dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:text="Отследить покупки"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="158dp"
+            android:layout_height="195dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="158dp"
+                android:layout_height="192dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/bad"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="148dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="1dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/white"
+                android:paddingTop="10dp"
+                android:text="   Кровать Джулия"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="10dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="118dp"
+                android:layout_height="21dp"
+                android:text=" Гарантия: 2 года"
+                android:textColor="@color/back2"
+                android:textSize="12dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView4"
+                app:layout_constraintStart_toStartOf="@+id/imageView4"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="161dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout8"
+            android:layout_width="158dp"
+            android:layout_height="195dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="260dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="158dp"
+                android:layout_height="192dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/washing"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="149dp"
+                android:layout_height="66dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/white"
+                android:paddingTop="10dp"
+                android:text="  Стиральная ма.."
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="127dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="133dp"
+                android:layout_height="24dp"
+                android:text="Гарантия: 6 меяцев"
+                android:textColor="@color/back3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imageView3"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="157dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imageView76"
+            android:layout_width="113dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="247dp"
+            android:layout_marginRight="247dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout80"
+            android:layout_width="158dp"
+            android:layout_height="195dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="158dp"
+                android:layout_height="192dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kithen1"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="132dp"
+                android:layout_height="68dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/white"
+                android:text="      Мультиварка"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="13dp"
+                tools:layout_editor_absoluteY="144dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout81"
+            android:layout_width="158dp"
+            android:layout_height="195dp"
+            android:layout_marginTop="11dp"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout80"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="158dp"
+                android:layout_height="192dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView91"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kithen"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="132dp"
+                android:layout_height="68dp"
+                android:background="@drawable/circle"
+                android:backgroundTint="@color/white"
+                android:text="     Кухонный угол"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="145dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout6"
+            android:layout_width="416dp"
+            android:layout_height="106dp"
+            android:background="@color/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="65dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:layout_marginBottom="25dp"
+                android:text="профиль"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/profile"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/fix"
+                android:layout_width="41dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="40dp"
+                android:text="ремонт"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/profile"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/fix"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/main"
+                android:layout_width="43dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="40dp"
+                android:text="Главная"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/fix"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/main_act"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="91dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="47dp"
+                android:layout_marginRight="47dp"
+                android:layout_marginBottom="27dp"
+                android:text="поиск"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/main"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/seartch"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="113dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="247dp"
+            android:layout_marginRight="247dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="218dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginRight="142dp"
+            android:text="Товары в пути:"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
